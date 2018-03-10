@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insult Generator</title>
+<title>Insult Generator testtest</title>
 </head>
 <body>
 <h1>TEST</h1>
