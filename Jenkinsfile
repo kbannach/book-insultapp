@@ -7,11 +7,11 @@ try {
             }
 
             stage('build') {
-                openshiftBuild(buildConfig: 'book-insultapp', showBuildLogs: 'true')
+                openshiftBuild(buildConfig: 'insultapp', showBuildLogs: 'true')
             }
 
             stage('deploy') {
-                openshiftDeploy(deploymentConfig: 'book-insultapp')
+                openshiftDeploy(deploymentConfig: 'insultapp')
             }
         }
     }
